@@ -1,4 +1,5 @@
 # 🎮 Pieces of Fantasy (PoF)
+![PoF Banner](Media/images/main_image.png)
 
 > Unity 기반 턴제 RPG 프로젝트
 > **탐험 → 전투 → 보상 → 성장 → 탐험** 루프를 중심으로 설계한
@@ -83,6 +84,26 @@
 ```text
 Exploration → Battle → Reward → Growth → Exploration
 ```
+
+---
+
+## 🧭 Game Flow Overview
+
+![Game Flow](Media/images/game_flow.png)
+
+PoF는 **탐험 → 전투 → 보상 → 성장 → 탐험**의 루프를 중심으로  
+GameContext 기반으로 모든 시스템이 연결되도록 설계했습니다.
+
+### 🎯 핵심 구조
+
+- 탐험 ↔ 전투 씬 전환 구조
+- Interactable 기반 전투 진입
+- DropTable → RewardQueue → UI 출력 흐름
+- 성장 시스템으로 루프 회귀
+- GameContext 중심 상태 통합 관리
+
+이 구조를 통해 각 시스템이 독립적으로 동작하지 않고  
+**하나의 흐름으로 연결되도록 설계했습니다.**
 
 ---
 
