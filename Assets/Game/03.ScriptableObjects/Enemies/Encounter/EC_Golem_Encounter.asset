@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7c47b0d93b6fe94fac928b46e511f17, type: 3}
+  m_Name: EC_Golem_Encounter
+  m_EditorClassIdentifier: 
+  guaranteedEnemy: {fileID: 11400000, guid: d253f8d7853110f4f88da87a0e5336b4, type: 2}
+  guaranteedCount: 1
+  optionalSlots:
+  - spawnChance: 1
+    candidates:
+    - enemy: {fileID: 11400000, guid: 0264976144add1a42bc24e3cbe53a651, type: 2}
+      weight: 1
+      count: 1
+  - spawnChance: 1
+    candidates:
+    - enemy: {fileID: 11400000, guid: 1bac666bb4c21b84db92e884e36b8884, type: 2}
+      weight: 1
+      count: 1

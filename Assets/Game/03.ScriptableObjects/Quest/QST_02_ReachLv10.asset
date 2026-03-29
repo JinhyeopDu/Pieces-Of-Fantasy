@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6828cdf4d041b1349a0d3286348b04ae, type: 3}
+  m_Name: QST_02_ReachLv10
+  m_EditorClassIdentifier: 
+  questId: QST_02
+  title: "\uCE90\uB9AD\uD130 1\uBA85 \uB808\uBCA8 10 \uB2EC\uC131\uD558\uAE30"
+  description: "\uD30C\uD2F0 \uB0B4 \uCE90\uB9AD\uD130 \uC911 1\uBA85 \uC774\uC0C1
+    \uB808\uBCA8 10\uC744 \uB2EC\uC131\uD558\uC138\uC694."
+  objectiveType: 3
+  targetEnemyId: 
+  targetValue: 10
+  targetPromotion: 0
+  rewards:
+  - item: {fileID: 11400000, guid: 4a2577597aa3f484480e1533430fc62c, type: 2}
+    amount: 20
+  - item: {fileID: 11400000, guid: 9fe012e2679484345b8f1c87f0cd6706, type: 2}
+    amount: 10
+  nextQuest: {fileID: 11400000, guid: f13bb4cdc7d43bd4281a14ef41ce7d0c, type: 2}

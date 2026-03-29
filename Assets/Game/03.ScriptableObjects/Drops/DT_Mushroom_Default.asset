@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7b6fed5d94bb546b89df27c8a73d8a, type: 3}
+  m_Name: DT_Mushroom_Default
+  m_EditorClassIdentifier: 
+  guaranteedPickOne:
+  - item: {fileID: 11400000, guid: 578c6013d9a478a448ebd4b513f1a70d, type: 2}
+    weight: 1
+    minQty: 1
+    maxQty: 3
+  - item: {fileID: 11400000, guid: bef5864e722413e4296ea4b1c3077d76, type: 2}
+    weight: 1
+    minQty: 1
+    maxQty: 3
+  - item: {fileID: 11400000, guid: d06f6fcfe174e4943a51fa69e596e05f, type: 2}
+    weight: 1
+    minQty: 1
+    maxQty: 3
+  extraPickChance: 0.3
+  extraPickNoDuplicate: 1
+  entries:
+  - item: {fileID: 11400000, guid: 4a2577597aa3f484480e1533430fc62c, type: 2}
+    chance: 0.3
+    minQty: 1
+    maxQty: 2
+  - item: {fileID: 11400000, guid: 9fe012e2679484345b8f1c87f0cd6706, type: 2}
+    chance: 0.2
+    minQty: 1
+    maxQty: 1
+  - item: {fileID: 11400000, guid: c787e658eb84f104b99c2d0d23dcd61d, type: 2}
+    chance: 0.2
+    minQty: 1
+    maxQty: 2
+  - item: {fileID: 11400000, guid: 8a6fdd024e2f2474a925b5b188fbe219, type: 2}
+    chance: 0.1
+    minQty: 1
+    maxQty: 2
+  - item: {fileID: 11400000, guid: 6d7cbba582b3c174883e09876286ee0a, type: 2}
+    chance: 0.1
+    minQty: 1
+    maxQty: 2

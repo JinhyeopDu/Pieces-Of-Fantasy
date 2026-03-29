@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cfb5e3b241a964fb45477811f258e2, type: 3}
+  m_Name: IT_5_Bread_ATK_DPS
+  m_EditorClassIdentifier: 
+  id: IT_5_Bread_ATK_DPS
+  displayName: "\uBE75"
+  description: "\uBCF5\uC6A9\uD55C \uCE90\uB9AD\uD130\uC758 \uACF5\uACA9\uB825 +50\uC744
+    \uC62C\uB824\uC90D\uB2C8\uB2E4.\n\uBCF5\uC6A9\uD55C \uCE90\uB9AD\uD130\uC758
+    \uBC29\uC5B4\uB825\uC744 +20\uC62C\uB824\uC90D\uB2C8\uB2E4."
+  icon: {fileID: -4431494890709657585, guid: 7fb0206fa1d3e87469aaf2b8a4a7d50d, type: 3}
+  category: 10
+  itemType: 10
+  maxStack: 21
+  sellPrice: 0
+  useScope: 20
+  effectA:
+    type: 35
+    value: 50
+    isPercent: 0
+    duration: 10
+  effectB:
+    type: 50
+    value: 20
+    isPercent: 0
+    duration: 10
+  targetPolicy: 0

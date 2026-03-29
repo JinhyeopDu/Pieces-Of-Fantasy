@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6828cdf4d041b1349a0d3286348b04ae, type: 3}
+  m_Name: QST_05_Promo1
+  m_EditorClassIdentifier: 
+  questId: QST_05
+  title: "\uCE90\uB9AD\uD130\uB97C 1\uCC28 \uC2B9\uAE09\uD558\uC138\uC694."
+  description: "\uC544\uBB34 \uCE90\uB9AD\uD130\uB098 1\uCC28 \uC2B9\uAE09\uC744
+    \uB2EC\uC131\uD558\uC138\uC694."
+  objectiveType: 4
+  targetEnemyId: 
+  targetValue: 0
+  targetPromotion: 1
+  rewards:
+  - item: {fileID: 11400000, guid: c43dc63f2b703a640868c7a10dded069, type: 2}
+    amount: 400
+  - item: {fileID: 11400000, guid: bf9e1c544ca267446970e1af10863185, type: 2}
+    amount: 400
+  - item: {fileID: 11400000, guid: 84f9f2a94e7e92043bce43c2b80bf5f9, type: 2}
+    amount: 400
+  nextQuest: {fileID: 11400000, guid: 9c8dd007d7d90454d869d3a269f3f0a5, type: 2}

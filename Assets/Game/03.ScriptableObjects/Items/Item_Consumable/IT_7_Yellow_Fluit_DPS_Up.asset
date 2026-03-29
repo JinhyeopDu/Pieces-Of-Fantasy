@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cfb5e3b241a964fb45477811f258e2, type: 3}
+  m_Name: IT_7_Yellow_Fluit_DPS_Up
+  m_EditorClassIdentifier: 
+  id: IT_7_Yellow_Fluit_DPS_Up
+  displayName: "\uB178\uB780 \uC5F4\uB9E4"
+  description: "\uD30C\uD2F0 \uCE90\uB9AD\uD130\uB4E4\uC758 \uC804\uCCB4 \uBC29\uC5B4\uB825
+    +20 \uC0C1\uC2B9\uD569\uB2C8\uB2E4."
+  icon: {fileID: 6352938874909051300, guid: 02fa999276313d340a429adc01e4079d, type: 3}
+  category: 10
+  itemType: 10
+  maxStack: 21
+  sellPrice: 0
+  useScope: 20
+  effectA:
+    type: 50
+    value: 20
+    isPercent: 0
+    duration: 10
+  effectB:
+    type: 0
+    value: 0
+    isPercent: 0
+    duration: 0
+  targetPolicy: 10

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cfb5e3b241a964fb45477811f258e2, type: 3}
+  m_Name: IT_Key_Golem
+  m_EditorClassIdentifier: 
+  id: IT_Key_Golem
+  displayName: "\uACE8\uB818\uC758 \uC5F4\uC1E0"
+  description: "\uB9C8\uC9C0\uB9C9 \uBCF4\uC2A4\uC640 \uC804\uD22C\uB97C \uC2E4\uD589\uD560
+    \uC218 \uC788\uB294 \uC544\uC774\uD15C"
+  icon: {fileID: 2617331434819043347, guid: 8d5410c7d83e52a41abbc6ba4260a765, type: 3}
+  category: 50
+  itemType: 50
+  maxStack: 1
+  sellPrice: 0
+  useScope: 0
+  effectA:
+    type: 0
+    value: 0
+    isPercent: 0
+    duration: 0
+  effectB:
+    type: 0
+    value: 0
+    isPercent: 0
+    duration: 0
+  targetPolicy: 0

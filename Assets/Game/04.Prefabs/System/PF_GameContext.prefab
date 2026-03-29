@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4909165149988962595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4006733463915042331}
+  - component: {fileID: 1795867196280680788}
+  - component: {fileID: 3980434392978674984}
+  - component: {fileID: 8879996290855804982}
+  m_Layer: 0
+  m_Name: PF_GameContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4006733463915042331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4909165149988962595}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1795867196280680788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4909165149988962595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09922dd6af673704690d6edc76c771ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataRegistry: {fileID: 11400000, guid: 2196aa1d39cb1514c863aed89ec08d3b, type: 2}
+  hasPendingLoadedWorldPosition: 0
+  pendingLoadedWorldPosition: {x: 0, y: 0, z: 0}
+  completedQuestIds: []
+  allQuestsCompleted: 0
+  pendingRewards: []
+  party: []
+  inventory:
+    items: []
+  lastExplorationSpawnPoint: SP_Default
+  currentEncounter: {fileID: 0}
+  secretArtPointsMax: 5
+  secretArtPoints: 5
+  hasReturnPoint: 0
+  returnPlayerPos: {x: 0, y: 0, z: 0}
+  returnPlayerRot: {x: 0, y: 0, z: 0, w: 0}
+  returnExplorationSceneName: Exploration
+  battleSkillPointsMax: 5
+  battleSkillPoints: 0
+  activePartyIndex: 0
+  inventorySortEnabled: 0
+  _openOverlay: 0
+  _respawnKeys: []
+  _respawnReadyTimes: []
+  _uniqueDefeatedKeys: []
+  endingShown: 0
+--- !u!114 &3980434392978674984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4909165149988962595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88ca6afd0e0056746915c89b7d2e237b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minInterval: 2
+  verboseLog: 1
+--- !u!114 &8879996290855804982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4909165149988962595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82b1c5e97620a9646860f10bdb651e38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstQuest: {fileID: 11400000, guid: 2018f1d10e0c25744aa60b77affc350e, type: 2}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6828cdf4d041b1349a0d3286348b04ae, type: 3}
+  m_Name: QST_08_KillArmorTurtle
+  m_EditorClassIdentifier: 
+  questId: QST_08
+  title: "\uAC11\uC637\uAC70\uBD81\uC744 \uC0AC\uB0E5\uD558\uC138\uC694."
+  description: "\uAC11\uC637\uAC70\uBD81\uC744 5\uB9C8\uB9AC \uC0AC\uB0E5\uD558\uC138\uC694."
+  objectiveType: 2
+  targetEnemyId: TurtleShell
+  targetValue: 5
+  targetPromotion: 0
+  rewards:
+  - item: {fileID: 11400000, guid: 20764c1463511854ba378a8f54f4b37a, type: 2}
+    amount: 30
+  - item: {fileID: 11400000, guid: 9aaf56dda741e334da688e0ff605249d, type: 2}
+    amount: 30
+  - item: {fileID: 11400000, guid: c43dc63f2b703a640868c7a10dded069, type: 2}
+    amount: 200
+  - item: {fileID: 11400000, guid: bf9e1c544ca267446970e1af10863185, type: 2}
+    amount: 200
+  - item: {fileID: 11400000, guid: 84f9f2a94e7e92043bce43c2b80bf5f9, type: 2}
+    amount: 200
+  nextQuest: {fileID: 11400000, guid: 8c49131ea86143641bc652bc3c83f3a0, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38ced5664095e8c4289b3545d4dc2f5a, type: 3}
+  m_Name: Tribi_Skill_HealParty
+  m_EditorClassIdentifier: 
+  id: 
+  displayName: "\uD558\uC774 \uD790"
+  icon: {fileID: 21300000, guid: 9d99d011c762ace4c86ad318e1e624a3, type: 3}
+  tagText: "[\uC11C\uD3EC\uD2B8]"
+  description: "\uB9D1\uC740 \uC774\uC2AC\uC774 \uD769\uB0A0\uB9AC\uB294 \uB4EF\uD55C
+    \uCE58\uC720\uC758 \uAE30\uC6B4\uC744 \uD37C\uB728\uB824, \uC790\uC2E0\uACFC
+    \uC544\uAD70 \uC804\uCCB4\uC758 \uC0C1\uCC98\uB97C \uBD80\uB4DC\uB7FD\uAC8C \uD68C\uBCF5\uC2DC\uD0A8\uB2E4.\n\uBAA8\uB4E0
+    \uC544\uAD70\uC740 \uAC01\uC790\uC758 \uCD5C\uB300 \uCCB4\uB825 \uAE30\uC900
+    30%\uB9CC\uD07C \uCCB4\uB825\uC744 \uD68C\uBCF5\uD55C\uB2E4."
+  spCost: 1
+  actionType: 10
+  power: 100
+  healPercent: 0.3
+  vfxPrefab: {fileID: 9017484664307500583, guid: 9e7c792b6adc03b41b29a0f51ea8b112, type: 3}
+  vfxLifeTime: 1.2
+  animTrigger: Skill

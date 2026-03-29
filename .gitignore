@@ -1,0 +1,20 @@
+# Unity 기본
+Library/
+Temp/
+Logs/
+obj/
+UserSettings/
+Build/
+Builds/
+
+# IDE
+.vs/
+.vscode/
+
+# 녹화/대용량
+Recordings/
+MemoryCaptures/
+
+# 무거운 에셋 제외
+Assets/Game/05.Art/
+Assets/Game/07.Audio/

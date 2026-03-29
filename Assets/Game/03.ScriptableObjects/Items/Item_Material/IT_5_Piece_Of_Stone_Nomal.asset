@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cfb5e3b241a964fb45477811f258e2, type: 3}
+  m_Name: IT_5_Piece_Of_Stone_Nomal
+  m_EditorClassIdentifier: 
+  id: IT_5_Piece_Of_Stone_Nomal
+  displayName: "\uC77C\uBC18 \uB3CC \uC870\uAC01"
+  description: "\uACE8\uB818\uC758 \uBAB8\uC73C\uB85C \uC774\uB8E8\uC5B4\uC9C4 \uB3CC
+    \uC870\uAC01.\n\uCE90\uB9AD\uD130\uC758 \uB9C8\uC9C0\uB9C9 \uC2B9\uAE09\uC5D0
+    \uC0AC\uC6A9\uB418\uB294 \uC7AC\uB8CC\uC785\uB2C8\uB2E4. "
+  icon: {fileID: -6613490888911143467, guid: d206b979a3ea7804f885c3ec89a8d7b3, type: 3}
+  category: 20
+  itemType: 20
+  maxStack: 99
+  sellPrice: 0
+  useScope: 0
+  effectA:
+    type: 0
+    value: 0
+    isPercent: 0
+    duration: 0
+  effectB:
+    type: 0
+    value: 0
+    isPercent: 0
+    duration: 0
+  targetPolicy: 0

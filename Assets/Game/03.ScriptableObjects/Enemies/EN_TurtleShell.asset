@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd21f71c10b6dca4f935e8d1a1eb512a, type: 3}
+  m_Name: EN_TurtleShell
+  m_EditorClassIdentifier: 
+  id: TurtleShell
+  displayName: "\uAC11\uC637\uAC70\uBD81"
+  portrait: {fileID: 0}
+  baseStats: {fileID: 11400000, guid: 38115058ada75a44b9c6b1a12675ea54, type: 2}
+  defaultLevel: 1
+  minLevel: 1
+  maxLevel: 1
+  toughness: 100
+  weaknesses: 
+  battlePrefab: {fileID: 5457304174541295181, guid: 4501d9566371d2d41bac6a3e3cb73c06, type: 3}
+  explorationPrefab: {fileID: 1524411113276028, guid: 99008578323f4bd4c82d9b052858b77c, type: 3}
+  expReward: 10
+  creditReward: 20
+  rank: 0
+  dropTable: {fileID: 11400000, guid: 616cbb37f9a72c546a2cbc691ed5b976, type: 2}
+  uniqueDefeat: 0
+  respawnDelayOverride: -1
+  lootTable: []
+  aiProfile: 1

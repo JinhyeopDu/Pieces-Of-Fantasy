@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7b6fed5d94bb546b89df27c8a73d8a, type: 3}
+  m_Name: DT_Cactus_Default
+  m_EditorClassIdentifier: 
+  guaranteedPickOne: []
+  entries:
+  - item: {fileID: 11400000, guid: 1a5a2670d8877fa4c9e768f0539f33c6, type: 2}
+    chance: 1
+    minQty: 1
+    maxQty: 1
+  - item: {fileID: 11400000, guid: 185e5c05b61fbaf46be4ce8fac81e867, type: 2}
+    chance: 0.5
+    minQty: 1
+    maxQty: 1
+  - item: {fileID: 11400000, guid: 4a2577597aa3f484480e1533430fc62c, type: 2}
+    chance: 0.6
+    minQty: 2
+    maxQty: 4
+  - item: {fileID: 11400000, guid: 9fe012e2679484345b8f1c87f0cd6706, type: 2}
+    chance: 0.2
+    minQty: 2
+    maxQty: 3
+  - item: {fileID: 11400000, guid: 8a6fdd024e2f2474a925b5b188fbe219, type: 2}
+    chance: 0.2
+    minQty: 1
+    maxQty: 3
+  - item: {fileID: 11400000, guid: 6d7cbba582b3c174883e09876286ee0a, type: 2}
+    chance: 0.2
+    minQty: 1
+    maxQty: 3
+  - item: {fileID: 11400000, guid: 3f52b6835de03c1469f79b87ba061d51, type: 2}
+    chance: 0.1
+    minQty: 1
+    maxQty: 1

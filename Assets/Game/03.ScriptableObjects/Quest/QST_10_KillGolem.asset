@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6828cdf4d041b1349a0d3286348b04ae, type: 3}
+  m_Name: QST_10_KillGolem
+  m_EditorClassIdentifier: 
+  questId: QST_10
+  title: "\uACE8\uB818\uC744 \uC0AC\uB0E5\uD558\uC138\uC694."
+  description: "\uACE8\uB818\uC744 \uC4F0\uB7EC\uB728\uB9AC\uC138\uC694."
+  objectiveType: 2
+  targetEnemyId: Golem
+  targetValue: 1
+  targetPromotion: 0
+  rewards:
+  - item: {fileID: 11400000, guid: c40be1b9f0969004f96943f94bb13f6b, type: 2}
+    amount: 10
+  - item: {fileID: 11400000, guid: b3a7b86d8d4e8164cb8d85fe073469e3, type: 2}
+    amount: 10
+  - item: {fileID: 11400000, guid: dd37262d15c4a4049bcfdba7fedaf526, type: 2}
+    amount: 1
+  nextQuest: {fileID: 11400000, guid: 81bd82381c2c7ad49a7f64251b3636fb, type: 2}

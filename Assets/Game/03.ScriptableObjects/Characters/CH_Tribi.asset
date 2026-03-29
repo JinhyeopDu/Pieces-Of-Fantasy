@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57a0c0a0acf41c24fa74eed9af6062fe, type: 3}
+  m_Name: CH_Tribi
+  m_EditorClassIdentifier: 
+  id: tribi
+  displayName: "\uD2B8\uB9AC\uBE44"
+  portrait: {fileID: 21300000, guid: 9cc1a0d5c39dc8b4ca14979764924814, type: 3}
+  explorationPrefab: {fileID: 246450999454351817, guid: 1b6b928e13e6a2645b3f849ecb2200e2, type: 3}
+  secretArtIcon: {fileID: 21300000, guid: 84cc5c307fe727745a4c5493a9d0e38b, type: 3}
+  baseHP: 1100
+  baseATK: 220
+  baseDEF: 65
+  baseSPD: 290
+  hpPerLevel: 150
+  atkPerLevel: 28
+  defPerLevel: 4
+  spdPerLevel: 1
+  promoHpPercent: 0.12
+  promoAtkPercent: 0.05
+  promoDefPercent: 0.12
+  promoSpdPercent: 0
+  basicAtk: {fileID: 0}
+  skill: {fileID: 11400000, guid: 342cb89952b27ab48a5ced6c151dcc36, type: 2}
+  ultimate: {fileID: 0}
+  secretArtType: 10
+  secretArtGainBattleSP: 2
+  secretArtHealPercent: 0.3
+  secretArtDefPercent: 0.5
+  secretArtDefTurns: 0

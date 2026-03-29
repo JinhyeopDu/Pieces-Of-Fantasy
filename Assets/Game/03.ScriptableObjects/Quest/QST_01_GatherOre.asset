@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6828cdf4d041b1349a0d3286348b04ae, type: 3}
+  m_Name: QST_01_GatherOre
+  m_EditorClassIdentifier: 
+  questId: QST_01
+  title: "\uAD11\uC11D\uC744 \uCC3E\uC544\uC11C \uCC44\uC9D1\uD558\uC138\uC694."
+  description: "\uC5B4\uB5A4 \uAD11\uC11D\uC774\uB4E0 20\uAC1C \uCC44\uC9D1\uD558\uC138\uC694."
+  objectiveType: 1
+  targetEnemyId: 
+  targetValue: 20
+  targetPromotion: 0
+  rewards:
+  - item: {fileID: 11400000, guid: c43dc63f2b703a640868c7a10dded069, type: 2}
+    amount: 300
+  - item: {fileID: 11400000, guid: bf9e1c544ca267446970e1af10863185, type: 2}
+    amount: 300
+  - item: {fileID: 11400000, guid: 84f9f2a94e7e92043bce43c2b80bf5f9, type: 2}
+    amount: 300
+  nextQuest: {fileID: 11400000, guid: f6d6af0dbf540b9468b618bc899eaa42, type: 2}

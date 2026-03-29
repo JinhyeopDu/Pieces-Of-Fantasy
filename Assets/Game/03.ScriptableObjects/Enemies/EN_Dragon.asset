@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd21f71c10b6dca4f935e8d1a1eb512a, type: 3}
+  m_Name: EN_Dragon
+  m_EditorClassIdentifier: 
+  id: Dragon
+  displayName: "\uB4DC\uB798\uACE4"
+  portrait: {fileID: 0}
+  baseStats: {fileID: 11400000, guid: aa83f8f0a95944f4d87698c734ed6ce3, type: 2}
+  defaultLevel: 1
+  minLevel: 1
+  maxLevel: 1
+  toughness: 100
+  weaknesses: 
+  battlePrefab: {fileID: 5015514164892164134, guid: 3973dd66dbecbdc41b4f22d524e3508e, type: 3}
+  explorationPrefab: {fileID: 6058877233173458189, guid: e419a1b0895efa54c9d3232a1752fcab, type: 3}
+  expReward: 10
+  creditReward: 20
+  rank: 20
+  dropTable: {fileID: 11400000, guid: d177bf3eec3bd4b4a856a1659761680d, type: 2}
+  uniqueDefeat: 1
+  respawnDelayOverride: -1
+  lootTable: []
+  aiProfile: 1

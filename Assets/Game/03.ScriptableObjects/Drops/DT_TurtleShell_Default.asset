@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7b6fed5d94bb546b89df27c8a73d8a, type: 3}
+  m_Name: DT_TurtleShell_Default
+  m_EditorClassIdentifier: 
+  guaranteedPickOne: []
+  entries:
+  - item: {fileID: 11400000, guid: 20764c1463511854ba378a8f54f4b37a, type: 2}
+    chance: 1
+    minQty: 1
+    maxQty: 2
+  - item: {fileID: 11400000, guid: 9aaf56dda741e334da688e0ff605249d, type: 2}
+    chance: 0.3
+    minQty: 1
+    maxQty: 1
+  - item: {fileID: 11400000, guid: 4a2577597aa3f484480e1533430fc62c, type: 2}
+    chance: 0.3
+    minQty: 1
+    maxQty: 3
+  - item: {fileID: 11400000, guid: 9fe012e2679484345b8f1c87f0cd6706, type: 2}
+    chance: 0.3
+    minQty: 1
+    maxQty: 2
+  - item: {fileID: 11400000, guid: 3f52b6835de03c1469f79b87ba061d51, type: 2}
+    chance: 0.3
+    minQty: 1
+    maxQty: 1
+  - item: {fileID: 11400000, guid: c787e658eb84f104b99c2d0d23dcd61d, type: 2}
+    chance: 0.3
+    minQty: 1
+    maxQty: 2
+  - item: {fileID: 11400000, guid: 8a6fdd024e2f2474a925b5b188fbe219, type: 2}
+    chance: 0.3
+    minQty: 1
+    maxQty: 3
+  - item: {fileID: 11400000, guid: 6d7cbba582b3c174883e09876286ee0a, type: 2}
+    chance: 0.3
+    minQty: 1
+    maxQty: 3
