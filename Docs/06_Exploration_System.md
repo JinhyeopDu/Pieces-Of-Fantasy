@@ -206,3 +206,21 @@ IInteractable만 구현하면 쉽게 확장 가능하도록 설계했습니다.
 ### 4) 상태 유지
 Respawn 및 GameContext를 통해  
 월드 상태가 유지되도록 구성했습니다.
+
+## 🔍 Problem
+
+- 퀘스트 진행 상태 초기화 버그
+
+## 💡 Solution
+
+- GameContext + SaveData 연동
+
+## 🎯 Result
+
+- 진행 상태 유지
+
+## 💡 Why this matters
+
+이 구조를 통해
+- 데이터 안정성 확보
+- 플레이 연속성 유지

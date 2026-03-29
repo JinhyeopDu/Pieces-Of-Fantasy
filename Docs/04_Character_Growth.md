@@ -177,3 +177,21 @@ CharacterData와 Runtime을 분리하여
 - 스킬 강화
 - 특성 트리
 - 캐릭터 각성 시스템
+
+## 🔍 Problem
+
+- 보상 즉시 지급 시 UX 단절
+
+## 💡 Solution
+
+- RewardQueue 시스템 도입
+
+## 🎯 Result
+
+- 자연스러운 보상 연출
+
+## 💡 Why this matters
+
+이 구조를 통해
+- UX 흐름 개선
+- 보상 가시성 증가

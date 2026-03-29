@@ -31,3 +31,24 @@ Pieces of Fantasy는 Unity 기반 턴제 RPG 프로젝트입니다.
 ## 6. 현재 구현 상태
 현재 탐험, 전투, 성장, 퀘스트의 핵심 루프는 구현되어 있으며,  
 코드 구조와 시스템 정리를 지속적으로 진행 중입니다.
+
+## 🔍 Problem
+
+- 시스템별 상태 분산
+- 데이터 불일치 가능성
+
+## 💡 Solution
+
+- GameContext를 Single Source of Truth로 설정
+
+## 🎯 Result
+
+- 모든 시스템이 동일한 상태 참조
+- 디버깅 및 유지보수 용이
+
+## 💡 Why this matters
+
+이 구조를 통해
+- 데이터 일관성 확보
+- 시스템 간 충돌 방지
+- 확장성 증가
